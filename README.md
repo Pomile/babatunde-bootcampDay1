@@ -1,4 +1,4 @@
-# babatunde-bootcampDay1
+# babatunde-bootcampDay1(RainDrop)
 This function checks certain primes(3, 5, and 7) else  return the number
 
 How it works.
