@@ -1,0 +1,26 @@
+{
+  "name": "raindrops",
+  "version": "1.0.0",
+  "description": "raindrops function checks certain prime factors of a number",
+  "main": "app/checksomeprimes.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register spec/test.js"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pomile/babatunde-bootcampDay1-Raindrop.git"
+  },
+  "author": "Babatunde Ogedengbe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pomile/babatunde-bootcampDay1-Raindrop/issues"
+  },
+  "homepage": "https://github.com/Pomile/babatunde-bootcampDay1-Raindrop#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
