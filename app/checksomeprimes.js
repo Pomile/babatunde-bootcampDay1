@@ -1,4 +1,4 @@
-let findFactors =(num)=>{
+var primeFactors =(num)=>{
 	
 	let factors =[];
 	var counter= 2;
@@ -22,7 +22,7 @@ function raindrops(num){
 
 		if(typeof num !=="number") throw "invalid input";
 		let result = "";
-		var factorsOfNumber=findFactors(num);
+		var factorsOfNumber=primeFactors(num);
 
 		var factorsLength = factorsOfNumber.length;
 
@@ -43,7 +43,7 @@ function raindrops(num){
 			}
 		}
 		if(result==""){
-			return num.toString();
+			return num;
 		}
 		return result
 	}catch(err){
